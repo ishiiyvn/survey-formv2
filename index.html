@@ -49,7 +49,7 @@
                 Female
             </label>
 
-            <label id="other-label" for="Other">
+            <label id="other-label" for="other">
                 <input class=radio-button type="radio" name="gender" id="other">
                 Other
             </label>
@@ -67,6 +67,44 @@
                 <option value="sports">Sports</option>
                 <option value="simulation">Simulation</option>
             </select>
+        </div>
+
+        <div class="form-group">
+            <p>What other hobbies do you have? <span class="clue">(optional)</span></p>
+            <label id="reading-label" for="reading">
+                <input class="checkbox" type="checkbox" name="hobbies" id="reading">
+                Reading
+            </label>
+
+            <label id="listening-label" for="listening">
+                <input class="checkbox" type="checkbox" name="hobbies" id="listening">
+                Listening to music
+            </label>
+
+            <label id="swimming-label" for="swimming">
+                <input class="checkbox" type="checkbox" name="hobbies" id="swimming">
+                Swimming
+            </label>
+
+            <label id="instruments-label" for="instruments">
+                <input class="checkbox" type="checkbox" name="hobbies" id="instruments">
+                Playing instruments
+            </label>
+
+            <label id="dancing-label" for="dancing">
+                <input class="checkbox" type="checkbox" name="hobbies" id="dancing">
+                Dancing
+            </label>
+
+            <label id="sports-label" for="sports">
+                <input class="checkbox" type="checkbox" name="hobbies" id="sports">
+                Playing sports
+            </label>
+
+            <label for="other-check">
+                <input type="checkbox" onclick="var input = document.getElementById('other-check'); if(this.checked){ input.disabled = false; input.focus();}else{input.disabled=true;}" />Other...
+              </label>
+              <input id="other-check" name="hobbies" disabled="disabled"/> 
         </div>
     </form>
 </body>
