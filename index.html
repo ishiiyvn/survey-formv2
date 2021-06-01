@@ -72,38 +72,38 @@
 
         <div class="form-group">
             <p>What other hobbies do you have? <span class="clue">(optional)</span></p>
-            <label id="reading-label" for="reading">
-                <input class="checkbox" type="checkbox" name="hobbies" id="reading">
+            <label class="check-group" id="reading-label" for="reading">
+                <input class="checkbox" type="checkbox" name="hobbies" id="reading" value="reading">
                 Reading
             </label>
 
-            <label id="listening-label" for="listening">
-                <input class="checkbox" type="checkbox" name="hobbies" id="listening">
+            <label class="check-group" id="listening-label" for="listening">
+                <input class="checkbox" type="checkbox" name="hobbies" id="listening" value="music">
                 Listening to music
             </label>
 
-            <label id="swimming-label" for="swimming">
-                <input class="checkbox" type="checkbox" name="hobbies" id="swimming">
+            <label class="check-group" id="swimming-label" for="swimming">
+                <input class="checkbox" type="checkbox" name="hobbies" id="swimming" value="swimming">
                 Swimming
             </label>
 
-            <label id="instruments-label" for="instruments">
-                <input class="checkbox" type="checkbox" name="hobbies" id="instruments">
+            <label class="check-group" id="instruments-label" for="instruments">
+                <input class="checkbox" type="checkbox" name="hobbies" id="instruments" value="instruments">
                 Playing instruments
             </label>
 
-            <label id="dancing-label" for="dancing">
-                <input class="checkbox" type="checkbox" name="hobbies" id="dancing">
+            <label class="check-group" id="dancing-label" for="dancing">
+                <input class="checkbox" type="checkbox" name="hobbies" id="dancing" value="dancing">
                 Dancing
             </label>
 
-            <label id="sports-label" for="sports">
-                <input class="checkbox" type="checkbox" name="hobbies" id="sports">
+            <label class="check-group" id="sports-label" for="sports">
+                <input class="checkbox" type="checkbox" name="hobbies" id="sports" value="sports">
                 Playing sports
             </label>
 
-            <label for="other-check">
-                <input type="checkbox" onclick="var input = document.getElementById('other-check'); if(this.checked){ input.disabled = false; input.focus();}else{input.disabled=true;}" />Other...
+            <label class="check-group" for="other-check">
+                <input class="checkbox" type="checkbox" value="other-hobby" onclick="var input = document.getElementById('other-check'); if(this.checked){ input.disabled = false; input.focus();}else{input.disabled=true;}" />Other...
               </label>
               <input id="other-check" name="hobbies" disabled="disabled"/> 
         </div>
