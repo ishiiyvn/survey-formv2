@@ -38,20 +38,20 @@
             <input id="number" class="form-control" type="number" name="age" id="number" placeholder="Enter your age" required min="5" max="110">
         </div>
 
-        <div id="radio-group" class="form-group">
+        <div class="form-group">
             <p>Gender</p>
-            <label id="male-label" for="male">
-                <input class="radio-button" type="radio" name="gender" id="male" required>
+            <label class="radio-group" id="male-label" for="male">
+                <input class="radio-button" type="radio" name="gender" id="male" value="male" required>
                 Male
             </label>
 
-            <label id="female-label" for="male">
-                <input class="radio-button" type="radio" name="gender" id="female">
+            <label class="radio-group" id="female-label" for="male">
+                <input class="radio-button" type="radio" name="gender" id="female" value="female">
                 Female
             </label>
 
-            <label id="other-label" for="other">
-                <input class="radio-button" type="radio" name="gender" id="other">
+            <label class="radio-group" id="other-label" for="other">
+                <input class="radio-button" type="radio" name="gender" id="other" value='other'>
                 Other
             </label>
         </div>
