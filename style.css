@@ -1,0 +1,80 @@
+
+    /*========
+    global styles
+    ========*/
+
+body{
+    font-size:1.1rem;
+    font-family: "Roboto Mono", monospace;
+    display:grid;
+    background: linear-gradient(10deg, rgb(0, 40, 83),rgb(6, 97, 153));
+    color:rgb(255, 221, 231);
+}
+
+    /*========
+    typography
+    ========*/
+
+h1{
+    color: rgb(255, 152, 178);
+    margin-bottom: 10px;
+    font-style: bold;
+    font-size: 2rem;
+}
+
+#description{
+    font-size: 1.4rem;
+    font-style:italic;
+}
+
+.clue{
+    font-size:0.9rem;
+}
+
+    /*========
+    layout
+    ========*/
+
+header{
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    font-size: inherit;
+    display:grid;
+    place-content: center;
+}
+
+label{
+    display: flex;
+}
+
+.form-group{
+    display:grid;
+    margin: 15px;
+}
+
+.form-control{
+    font-size:inherit;
+    font-family:inherit;
+    margin: 10px 0 auto 0;
+    padding: 10px 0 5px 5px;
+    background:rgb(226, 243, 255);
+}
+
+.check-group, .radio-group{
+    margin: 5px;
+}
+
+.submit-button{
+    font-size: inherit;
+    color: rgb(0, 40, 83);
+    background-color: rgb(109, 190, 156);
+    padding: 10px;
+    margin: 10px auto;
+}
